@@ -1,0 +1,25 @@
+class First{
+	public static void main(String[] args) {
+		int a=(int)(Math.random()*100);
+		int b=(int)(Math.random()*100);
+		int c=(int)(Math.random()*100);
+		int d=(int)(Math.random()*100);	
+		int min;
+		min=a;
+		if(min>b){
+			min=b;
+		}
+		if(min>c){
+			min=c;
+		}
+		if(min>d){
+			min=d;
+		}
+
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println("min number is "+min);
+	}
+}
